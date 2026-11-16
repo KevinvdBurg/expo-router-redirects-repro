@@ -1,0 +1,18 @@
+{
+  "expo": {
+    "name": "expo-router-redirects-repro",
+    "slug": "expo-router-redirects-repro",
+    "scheme": "redirectsrepro",
+    "plugins": [
+      [
+        "expo-router",
+        {
+          "redirects": [
+            { "source": "/old", "destination": "/new" },
+            { "source": "/invoices", "destination": "/invoices/list" }
+          ]
+        }
+      ]
+    ]
+  }
+}
